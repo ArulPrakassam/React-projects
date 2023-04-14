@@ -27,15 +27,18 @@ const App = () => {
     }
     //sending the typed text to the server and getting the images back
     try {
-      const response = await fetch("http://localhost:8000/images", {
-        method: "POST",
-        body: JSON.stringify({
-          message: value,
-        }),
-        headers: {
-          "Content-type": "application/json",
-        },
-      });
+      const response = await fetch(
+        "https://dall-e-clone-73nc.onrender.com/images",
+        {
+          method: "POST",
+          body: JSON.stringify({
+            message: value,
+          }),
+          headers: {
+            "Content-type": "application/json",
+          },
+        }
+      );
       const data = await response.json();
       console.log(data);
       setImages(data);
@@ -63,10 +66,13 @@ const App = () => {
     e.target.value = null;
     //sending the image to server
     try {
-      const response = await fetch("http://localhost:8000/upload", {
-        method: "POST",
-        body: formData,
-      });
+      const response = await fetch(
+        "https://dall-e-clone-73nc.onrender.com/upload",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
       const data = await response.json();
     } catch (error) {
       console.log(error);
@@ -85,9 +91,12 @@ const App = () => {
     }
     //sending request to server to get variation of images
     try {
-      const response = await fetch("http://localhost:8000/variations", {
-        method: "POST",
-      });
+      const response = await fetch(
+        "https://dall-e-clone-73nc.onrender.com/variations",
+        {
+          method: "POST",
+        }
+      );
       const data = await response.json();
       console.log(data);
       setImages(data);
