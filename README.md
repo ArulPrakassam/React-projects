@@ -34,6 +34,6 @@ I am practicing React by doing these projects
 
 ⭐[Stripe submenu](https://stripe-submenu-react-project.netlify.app/)
 
-## Own JS Projects
+## Own React Projects
 
 ❤[Dall-E Clone](https://dall-e-project.netlify.app/)
