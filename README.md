@@ -28,7 +28,7 @@ I am practicing React by doing these projects
 
 ⭐[Lorem Ipsum](https://lorem-ipsum-reactjs-project.netlify.app/)
 
-⭐[sidebar project](https://sidebar-reactjs-project.netlify.app/)
+⭐[Sidebar project](https://sidebar-reactjs-project.netlify.app/)
 
 ⭐[Slider Project](https://slider-reactjs-project.netlify.app/)
 
