@@ -36,4 +36,6 @@ I am practicing React by doing these projects
 
 ## Own React Projects
 
+❤[Hungrezy](https://hungrezy-app.netlify.app/)
+
 ❤[Dall-E Clone](https://dall-e-project.netlify.app/)
