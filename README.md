@@ -36,6 +36,8 @@ I am practicing React by doing these projects
 
 ## Own React Projects
 
+❤[X clone (Twitter)](https://x-clone-twitter.netlify.app/)
+
 ❤[Hungrezy](https://hungrezy-app.netlify.app/)
 
 ❤[Dall-E Clone](https://dall-e-project.netlify.app/)
